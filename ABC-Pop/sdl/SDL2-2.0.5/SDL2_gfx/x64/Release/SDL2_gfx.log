@@ -1,0 +1,6 @@
+﻿     Creating library x64\Release\SDL2_gfx.lib and object x64\Release\SDL2_gfx.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 153 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SDL2_gfx.vcxproj -> C:\dev\inc\SDL2-2.0.5\SDL2_gfx\x64\Release\SDL2_gfx.dll

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{b92d1335-2b29-4a2a-836f-fccb2d275637}</ProjectGuid>
+    <RootNamespace>ABCPop</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_gfx;$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_mixer\include;$(ProjectDir)\sdl\SDL2-2.0.5\SDL_Image2\include;$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_ttf\include;$(ProjectDir)\box2d\Box2D;$(ProjectDir)\sdl\SDL2-2.0.5\include;$(ProjectDir)\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;$(ProjectDir)\Box2D\Box2D\Build\vs2015\bin\Debug\Box2D.lib;$(ProjectDir)\sdl\SDL2-2.0.5\lib\x64\SDL2main.lib;$(ProjectDir)\sdl\SDL2-2.0.5\lib\x64\sdl2.lib;$(ProjectDir)\sdl\SDL2-2.0.5\SDL_Image2\lib\x64\SDL2_image.lib;$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_ttf\lib\x64\SDL2_ttf.lib;$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_mixer\lib\x64\sdl2_mixer.lib;$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_gfx\x64\Debug64\SDL2_gfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_gfx;$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_mixer\include;$(ProjectDir)\sdl\SDL2-2.0.5\SDL_Image2\include;$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_ttf\include;$(ProjectDir)\box2d\Box2D;$(ProjectDir)\sdl\SDL2-2.0.5\include;$(ProjectDir)\include;$(ProjectDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;$(ProjectDir)\Box2D\Box2D\Build\vs2015\bin\Release\Box2D.lib;$(ProjectDir)\sdl\SDL2-2.0.5\lib\x64\SDL2main.lib;$(ProjectDir)\sdl\SDL2-2.0.5\lib\x64\sdl2.lib;$(ProjectDir)\sdl\SDL2-2.0.5\SDL_Image2\lib\x64\SDL2_image.lib;$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_ttf\lib\x64\SDL2_ttf.lib;$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_mixer\lib\x64\sdl2_mixer.lib;$(ProjectDir)\sdl\SDL2-2.0.5\SDL2_gfx\x64\Debug64\SDL2_gfx.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ABC-Pop.cpp" />
+    <ClCompile Include="include\anduin\anduin.cpp" />
+    <ClCompile Include="include\anduin\I_cAndUIn.cpp" />
+    <ClCompile Include="include\anduin\I_cButton.cpp" />
+    <ClCompile Include="include\anduin\I_cCheckButton.cpp" />
+    <ClCompile Include="include\anduin\I_cImageButton.cpp" />
+    <ClCompile Include="include\anduin\I_cKeyboard.cpp" />
+    <ClCompile Include="include\anduin\I_cLabel.cpp" />
+    <ClCompile Include="include\anduin\I_cPanel.cpp" />
+    <ClCompile Include="include\anduin\I_cPicture.cpp" />
+    <ClCompile Include="include\anduin\I_cTextBox.cpp" />
+    <ClCompile Include="include\anduin\I_cTextBoxInput.cpp" />
+    <ClCompile Include="include\anduin\I_cWidget.cpp" />
+    <ClCompile Include="include\anduin\I_cWindow.cpp" />
+    <ClCompile Include="include\Framerate.cpp" />
+    <ClCompile Include="include\gameapi.cpp" />
+    <ClCompile Include="include\I_cAnimalBar.cpp" />
+    <ClCompile Include="include\I_cAnimate.cpp" />
+    <ClCompile Include="include\I_cAnimation.cpp" />
+    <ClCompile Include="include\I_cAssetManager.cpp" />
+    <ClCompile Include="include\I_cBalloon.cpp" />
+    <ClCompile Include="include\I_cCollectable.cpp" />
+    <ClCompile Include="include\I_cColorConversion.cpp" />
+    <ClCompile Include="include\I_cEngine.cpp" />
+    <ClCompile Include="include\I_cGameData.cpp" />
+    <ClCompile Include="include\I_cLetter.cpp" />
+    <ClCompile Include="include\I_cLevel.cpp" />
+    <ClCompile Include="include\I_cLifeBar.cpp" />
+    <ClCompile Include="include\I_cLog.cpp" />
+    <ClCompile Include="include\I_cParalaxLayer.cpp" />
+    <ClCompile Include="include\I_cParallax.cpp" />
+    <ClCompile Include="include\I_cSoundBlaster.cpp" />
+    <ClCompile Include="include\I_cStarDroplet.cpp" />
+    <ClCompile Include="include\I_cStars.cpp" />
+    <ClCompile Include="include\I_cText.cpp" />
+    <ClCompile Include="include\I_cTextBar.cpp" />
+    <ClCompile Include="include\I_cTextHelper.cpp" />
+    <ClCompile Include="include\I_cUIMain.cpp" />
+    <ClCompile Include="include\letterdef.cpp" />
+    <ClCompile Include="include\rnd\mersenne.cpp" />
+    <ClCompile Include="include\ui\I_cAnimalCollectionWindow.cpp" />
+    <ClCompile Include="include\ui\I_cBalloonCollectionWindow.cpp" />
+    <ClCompile Include="include\ui\I_cCollectionWindow.cpp" />
+    <ClCompile Include="include\ui\I_cCreditsWindow.cpp" />
+    <ClCompile Include="include\ui\I_cDictionaryWindow.cpp" />
+    <ClCompile Include="include\ui\I_cGameplayWindow.cpp" />
+    <ClCompile Include="include\ui\I_cKeyboardWindow.cpp" />
+    <ClCompile Include="include\ui\I_cLevelCompleteWindow.cpp" />
+    <ClCompile Include="include\ui\I_cLevelSelectWindow.cpp" />
+    <ClCompile Include="include\ui\I_cMainWindow.cpp" />
+    <ClCompile Include="include\ui\I_cMarkerButton.cpp" />
+    <ClCompile Include="include\ui\I_cPauseWindow.cpp" />
+    <ClCompile Include="include\ui\I_cPhaseOverWindow.cpp" />
+    <ClCompile Include="include\ui\I_cResetMessageWindow.cpp" />
+    <ClCompile Include="include\ui\I_cSettingsWindow.cpp" />
+    <ClCompile Include="include\ui\I_cWinnerWindow.cpp" />
+    <ClCompile Include="include\ui\I_cWorldCompleteWindow.cpp" />
+    <ClCompile Include="include\ui\I_cWorldSelectWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\anduin\anduin.h" />
+    <ClInclude Include="include\anduin\FastDelegate\FastDelegate.h" />
+    <ClInclude Include="include\anduin\FastDelegate\FastDelegateBind.h" />
+    <ClInclude Include="include\anduin\I_cAndUIn.h" />
+    <ClInclude Include="include\anduin\I_cButton.h" />
+    <ClInclude Include="include\anduin\I_cCheckButton.h" />
+    <ClInclude Include="include\anduin\I_cImageButton.h" />
+    <ClInclude Include="include\anduin\I_cKeyboard.h" />
+    <ClInclude Include="include\anduin\I_cLabel.h" />
+    <ClInclude Include="include\anduin\I_cPanel.h" />
+    <ClInclude Include="include\anduin\I_cPicture.h" />
+    <ClInclude Include="include\anduin\I_cTextBox.h" />
+    <ClInclude Include="include\anduin\I_cTextBoxInput.h" />
+    <ClInclude Include="include\anduin\I_cWidget.h" />
+    <ClInclude Include="include\anduin\I_cWindow.h" />
+    <ClInclude Include="include\Framerate.h" />
+    <ClInclude Include="include\gameapi.h" />
+    <ClInclude Include="include\gamedef.h" />
+    <ClInclude Include="include\I_cAnimalBar.h" />
+    <ClInclude Include="include\I_cAnimate.h" />
+    <ClInclude Include="include\I_cAnimation.h" />
+    <ClInclude Include="include\I_cAssetmanager.h" />
+    <ClInclude Include="include\I_cBalloon.h" />
+    <ClInclude Include="include\I_cCollectable.h" />
+    <ClInclude Include="include\I_cColorConversion.h" />
+    <ClInclude Include="include\I_cEngine.h" />
+    <ClInclude Include="include\I_cGameData.h" />
+    <ClInclude Include="include\I_cLetter.h" />
+    <ClInclude Include="include\I_cLevel.h" />
+    <ClInclude Include="include\I_cLifeBar.h" />
+    <ClInclude Include="include\I_cLog.h" />
+    <ClInclude Include="include\I_cParalaxLayer.h" />
+    <ClInclude Include="include\I_cParallax.h" />
+    <ClInclude Include="include\I_cSoundBlaster.h" />
+    <ClInclude Include="include\I_cStarDroplet.h" />
+    <ClInclude Include="include\I_cStars.h" />
+    <ClInclude Include="include\I_cText.h" />
+    <ClInclude Include="include\I_cTextBar.h" />
+    <ClInclude Include="include\I_cTextHelper.h" />
+    <ClInclude Include="include\I_cUIMain.h" />
+    <ClInclude Include="include\letterdef.h" />
+    <ClInclude Include="include\ui\I_cAnimalCollectionWindow.h" />
+    <ClInclude Include="include\ui\I_cBalloonCollectionWindow.h" />
+    <ClInclude Include="include\ui\I_cCollectionsWindow.h" />
+    <ClInclude Include="include\ui\I_cCreditsWindow.h" />
+    <ClInclude Include="include\ui\I_cDictionaryWindow.h" />
+    <ClInclude Include="include\ui\I_cGameplayWindow.h" />
+    <ClInclude Include="include\ui\I_cKeyboardWindow.h" />
+    <ClInclude Include="include\ui\I_cLevelCompleteWindow.h" />
+    <ClInclude Include="include\ui\I_cLevelSelectWindow.h" />
+    <ClInclude Include="include\ui\I_cMainWindow.h" />
+    <ClInclude Include="include\ui\I_cMarkerButton.h" />
+    <ClInclude Include="include\ui\I_cPauseWindow.h" />
+    <ClInclude Include="include\ui\I_cPhaseOverWindow.h" />
+    <ClInclude Include="include\ui\I_cResetMessageWindow.h" />
+    <ClInclude Include="include\ui\I_cSettingsWindow.h" />
+    <ClInclude Include="include\ui\I_cWinnerWindow.h" />
+    <ClInclude Include="include\ui\I_cWorldCompleteWindow.h" />
+    <ClInclude Include="include\ui\I_cWorldSelectWindow.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
