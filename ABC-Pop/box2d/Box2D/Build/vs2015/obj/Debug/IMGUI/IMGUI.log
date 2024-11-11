@@ -1,0 +1,6 @@
+﻿  imgui_impl_glfw_gl3.cpp
+  imgui_draw.cpp
+  imgui_demo.cpp
+  imgui.cpp
+  Generating Code...
+  IMGUI.vcxproj -> C:\dev\inc\Box2D\Box2D\Build\vs2015\bin\Debug\IMGUI.lib

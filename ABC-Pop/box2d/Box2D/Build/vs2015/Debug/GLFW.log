@@ -1,0 +1,17 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Box2D.vcxproj, IMGUI.vcxproj, Testbed.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  window.c
+  win32_window.c
+  win32_tls.c
+  win32_time.c
+  win32_monitor.c
+  win32_joystick.c
+  win32_init.c
+  wgl_context.c
+  vulkan.c
+  monitor.c
+  input.c
+  init.c
+  egl_context.c
+  context.c
+  Generating Code...
+  GLFW.vcxproj -> C:\dev\inc\Box2D\Box2D\Build\vs2015\Debug\GLFW.lib
