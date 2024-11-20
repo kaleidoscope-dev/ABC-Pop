@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="CODE">
+      <UniqueIdentifier>{f1e73dad-4b23-4387-98cd-06198067cf11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Main">
+      <UniqueIdentifier>{645497be-e60a-4207-9974-eeab58665825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\Global">
+      <UniqueIdentifier>{2a5a276d-7b6e-4a2a-bee3-7cdd27816e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\AndUIn">
+      <UniqueIdentifier>{701be033-1730-4cbd-99bf-3fac28561851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\UI">
+      <UniqueIdentifier>{889585bb-fa92-4846-8d91-ced4ba45ed50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CODE\UI\DelegateAPI">
+      <UniqueIdentifier>{e9da5381-1f91-4dcb-9323-3cc2577482a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\Framerate.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="ABC-Pop.cpp">
+      <Filter>CODE\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cAndUIn.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cButton.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cCheckButton.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cLabel.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cPanel.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cMarkerButton.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cPicture.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cText.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cTextBar.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cTextBox.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cTextBoxInput.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cTextHelper.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cWidget.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cWindow.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\anduin.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cAnimalCollectionWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cBalloonCollectionWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cCollectable.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cCollectionWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cColorConversion.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cCreditsWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cDictionaryWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cGameplayWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cKeyboard.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cKeyboardWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cLetter.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cLevelCompleteWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cLevelSelectWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cLifeBar.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cMainWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cPauseWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cPhaseOverWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cResetMessageWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cSettingsWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\anduin\I_cImageButton.cpp">
+      <Filter>CODE\AndUIn</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cAnimate.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cAnimation.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cAssetManager.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cGameData.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cParalaxLayer.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cParallax.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cSoundBlaster.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\letterdef.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\rnd\mersenne.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cStarDroplet.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cStars.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cUIMain.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cWinnerWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cWorldCompleteWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\ui\I_cWorldSelectWindow.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cAnimalBar.cpp">
+      <Filter>CODE\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cBalloon.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cLog.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+    <ClCompile Include="include\gameapi.cpp">
+      <Filter>CODE\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cEngine.cpp">
+      <Filter>CODE\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="include\I_cLevel.cpp">
+      <Filter>CODE\Global</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Framerate.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cAndUIn.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\anduin.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cAnimalBar.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cAnimalCollectionWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cBalloonCollectionWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cCheckButton.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cCollectable.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cCollectionsWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cColorConversion.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cCreditsWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cDictionaryWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cGameplayWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cKeyboard.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cKeyboardWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cLevelCompleteWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cLevelSelectWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cLifeBar.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cMainWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cPhaseOverWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cResetMessageWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cSettingsWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cStarDroplet.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cStars.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cUIMain.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cWinnerWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cWorldCompleteWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cWorldSelectWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\letterdef.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cButton.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cImageButton.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cLabel.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cLetter.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cMarkerButton.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cPanel.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cPicture.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cText.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cTextBar.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cTextBox.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cTextBoxInput.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cTextHelper.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cWidget.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\I_cWindow.h">
+      <Filter>CODE\AndUIn</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cAnimate.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cAnimation.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cAssetmanager.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cGameData.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cLevel.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cLog.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cParalaxLayer.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cParallax.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cSoundBlaster.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\I_cPauseWindow.h">
+      <Filter>CODE\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cBalloon.h">
+      <Filter>CODE\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameapi.h">
+      <Filter>CODE\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gamedef.h">
+      <Filter>CODE\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\I_cEngine.h">
+      <Filter>CODE\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\FastDelegate\FastDelegateBind.h">
+      <Filter>CODE\UI\DelegateAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\anduin\FastDelegate\FastDelegate.h">
+      <Filter>CODE\UI\DelegateAPI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

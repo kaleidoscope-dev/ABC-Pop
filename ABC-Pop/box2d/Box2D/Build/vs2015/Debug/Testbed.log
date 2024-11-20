@@ -1,0 +1,66 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Box2D.vcxproj, GLFW.vcxproj, IMGUI.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  TestEntries.cpp
+  Test.cpp
+  Main.cpp
+  DebugDraw.cpp
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Box2D.vcxproj, IMGUI.vcxproj, Testbed.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GLFW.vcxproj, IMGUI.vcxproj, Testbed.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Box2D.vcxproj, GLFW.vcxproj, Testbed.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewBindBuffer
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewBindBuffer
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewBufferData
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewBufferData
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewBufferSubData
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewDeleteBuffers
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewDeleteBuffers
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewGenBuffers
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewGenBuffers
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewAttachShader
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewAttachShader
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewCompileShader
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewCompileShader
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewCreateProgram
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewCreateProgram
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewCreateShader
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewCreateShader
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewDeleteProgram
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewDeleteProgram
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewDeleteShader
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewDeleteShader
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewEnableVertexAttribArray
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewEnableVertexAttribArray
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewGetProgramInfoLog
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewGetProgramiv
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewGetShaderInfoLog
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewGetShaderiv
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewGetUniformLocation
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewGetUniformLocation
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewIsProgram
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewIsShader
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewLinkProgram
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewLinkProgram
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewShaderSource
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewShaderSource
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewUniformMatrix4fv
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewUniformMatrix4fv
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewUseProgram
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewUseProgram
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewVertexAttribPointer
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewVertexAttribPointer
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewBindFragDataLocation
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewBindVertexArray
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewBindVertexArray
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewDeleteVertexArrays
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewDeleteVertexArrays
+DebugDraw.obj : error LNK2001: unresolved external symbol ___glewGenVertexArrays
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewGenVertexArrays
+Main.obj : error LNK2019: unresolved external symbol _glewInit@0 referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol _glewGetErrorString@4 referenced in function _main
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewActiveTexture
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewBlendEquation
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewBlendEquationSeparate
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewDetachShader
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewGetAttribLocation
+IMGUI.lib(imgui_impl_glfw_gl3.obj) : error LNK2001: unresolved external symbol ___glewUniform1i
+C:\dev\inc\Box2D\Box2D\Build\vs2015\Debug\Testbed.exe : fatal error LNK1120: 36 unresolved externals
