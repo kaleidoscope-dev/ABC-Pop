@@ -12,4 +12,5 @@ FastDelegates API
 Audio files are covered by CC by 4.0 license referenced from the game credits.
 All graphics files are covered by Free to Use or Fair Use license.
 
-
+Gameplay Video
+https://www.youtube.com/watch?v=IMOE5JVuagk
