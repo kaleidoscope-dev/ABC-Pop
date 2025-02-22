@@ -1,6 +1,6 @@
 Unless specified otherwise, MIT license applies to all elements of this software.
 
-Software not covered by MIT license included in this software and are covered by their own license:
+Software not covered by MIT license included in this software and is covered by their own license:
 
 SDL library
 SDL2_gfx
